@@ -1,0 +1,32 @@
+.subHeadFormat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Semantic-Mod{
+    top: unset!important;
+    right: unset!important;
+    bottom: unset!important;
+    left: unset!important;
+    height: 300px!important;
+}
+.paddingTextField{
+    flex-basis: 50%;
+
+}
+.placementCont{
+    display: flex!important;
+    justify-content: center!important;
+}
+.clickPoint:hover{
+    cursor: pointer!important;
+}
+.tableTitle{
+    flex: 1 1 100%;
+}
+.tableFoot{
+    margin-right:200px!important;
+}
+.rootStyle{
+    flex-shrink: 0;
+}

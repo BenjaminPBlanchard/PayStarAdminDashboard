@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*
+  Spread font across entire App
+  **************************************
+ */
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.vertical{
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+.center-vertical{
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+hr.divider{
+  border-top: 1px solid #4f4e4e;
+}
+.issue-bullet{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  display: block;
+  padding-bottom: 5px;
+}
+.issue-number{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.login{
+  margin-left: auto !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+.logo{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 17px !important;
+}
+div.item.active.tab{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important;
+}
+div.item{
+  font-family: 'Roboto', sans-serif !important;
+  /*font-weight: bold !important;*/
+}
+.innerMargins{
+  margin: 20px 200px 0 200px;
+}
+.button2{
+  border-bottom: 1px solid #4f4e4e;
+
+}

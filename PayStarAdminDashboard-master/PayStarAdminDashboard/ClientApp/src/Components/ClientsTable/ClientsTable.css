@@ -1,0 +1,56 @@
+.MuiTableCell-alignRight {
+}
+.MuiTableCell-root {
+    display: table-cell;
+    padding: 16px;
+    font-size: 0.875rem;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    letter-spacing: 0.01071em;
+    vertical-align: inherit;
+    width: 200px;
+}
+.MuiTableCell-body{
+    color: #144a6f !important;
+}
+.MuiTableCell-head {
+    color: #1d87f1 !important;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.MuiTableSortLabel-root.MuiTableSortLabel-active {
+    color: #1d87f1 !important;
+}
+.MuiTableRow-root.MuiTableRow-hover:hover {
+    cursor: pointer !important;
+}
+.Semantic-ModalClients{
+    top: unset!important;
+    right: unset!important;
+    bottom: unset!important;
+    left: unset!important;
+    height: 550px!important;
+}
+.paddingTextField{
+    margin-top: 30px!important;
+    padding-right:10px !important;
+    padding-bottom:50px !important;
+    flex-basis: 50%;
+}
+.dropDownPads{
+    padding-right:10px !important;
+    margin-top: 40px!important;
+    margin-left: 15px!important;
+    flex-basis: 50%;
+}
+
+.placementModal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    height: 300px;
+    flex-wrap: wrap;
+}

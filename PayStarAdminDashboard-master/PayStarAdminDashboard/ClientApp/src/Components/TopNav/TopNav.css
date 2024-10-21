@@ -1,0 +1,69 @@
+.greeting{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    float: right;
+}
+div.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters{
+    color: black;
+    background-color: #fdfdfd;
+}
+.logo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-height: 65px;
+    max-width: 120px;
+}
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+}
+.nav-btn{
+    align-self: center;
+    font-size: 100%;
+    color: #144a6f;
+    transition:  color ease-in-out 300ms;
+}
+.nav-btn:hover{
+    cursor: pointer;
+    color: #da1f3f;
+}
+.nav-btn:active{
+
+}
+/* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #da1f3f;
+    height: 3px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+a:hover{
+    text-decoration: none !important;
+}

@@ -1,0 +1,56 @@
+.sidebyside{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardBorder{
+    border: 3px solid #144a6f;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.cardTitle{
+    width: 100%;
+    margin-bottom: 6px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #144a6f;
+}
+.noteMainContainer{
+    height: 600px!important;
+    width: 450px!important;
+}
+.noteCardBorder{
+    max-height: 93%;
+    border: 3px solid #144a6f;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    padding-top: 2px;
+    text-align: center;
+}
+.noteCardHeader{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.noteCardItemBody{
+    margin-top: 5px!important;
+    display:flex;
+    justify-content: start;
+}
+.RecNote-header{
+    font-size: 15px;
+    color: #144a6f;
+}
+.notePaperFormat{
+    max-width: 430px;
+    margin: 2px 5px;
+    padding: 5px 7px;
+}
+.clickPoint:hover{
+    cursor: pointer!important;
+}

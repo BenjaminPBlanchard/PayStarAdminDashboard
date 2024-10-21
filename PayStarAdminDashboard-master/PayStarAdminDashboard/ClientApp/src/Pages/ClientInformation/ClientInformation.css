@@ -1,0 +1,105 @@
+.mainContainer{
+    margin-top: 10px;
+}
+
+.ClientName{
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.Header{
+    margin-top: 3%;
+    display:flex;
+    margin-bottom: -8%;
+}
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+}
+.infoTitle{
+    font-size: 24px;
+    color: #144a6f;
+    padding: 10px 10px 10px 10px;
+}
+.basicInfo{
+
+}
+.topContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.itemTitle{
+    font-size: 20px !important;
+}
+.MuiCardContent-root {
+    justify-content: space-around !important;
+}
+.padding {
+    padding-right:10px !important;
+    flex-basis: 50%
+}
+.placement{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    height: 300px;
+    flex-wrap: wrap;
+}
+.cardFootForm{
+    width:100%!important;
+    max-height: 36px!important;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.MuiFormLabel-root {
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+}
+.MuiFormLabel-root {
+    color: #144a6f !important;
+}
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 2px solid #144a6f !important;
+
+}
+.MuiPaper-root {
+    /*background-color: revert !important;*/
+}
+.cardMain{
+    min-width: 275px;
+    flex-basis: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.statsCardCont{
+    display: flex;
+    flex-direction: column;
+}
+
+.note-dateStamp{
+    color: #144a6f90;
+    padding: 5px 0 10px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.note-header{
+    font-size: 15px;
+    color: #144a6f;
+    padding: 10px 0 0 16px;
+}
+.note-edit-btn{
+    font-size: 12px;
+    margin-left: 1% !important;
+}
+.loader{
+    color: #144a6f !important;
+}
+

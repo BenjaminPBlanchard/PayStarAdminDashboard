@@ -1,0 +1,29 @@
+.AddressInfo{
+    margin: 1%;
+    flex-basis: 100%;
+}
+
+.subContain{
+    display:flex;
+    flex-direction: row;
+}
+.addEditButton{
+    align-content: end;
+}
+.Semantic-ModalAddress{
+    top: unset!important;
+    right: unset!important;
+    bottom: unset!important;
+    left: unset!important;
+    height: 300px!important;
+}
+.placementModalAdd{
+    display: flex!important;
+    justify-content: center!important;
+}
+.paddingTextFieldAdd{
+    margin-top: 30px!important;
+    padding-right:10px !important;
+    padding-bottom:50px !important;
+    flex-basis: 50%;
+}
